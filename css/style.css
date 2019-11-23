@@ -973,3 +973,303 @@ main .photoGallery .photoGallery-package button {
 main .photoGallery .photoGallery-package button:hover {
   cursor: pointer;
 }
+main .documnets {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 285px;
+}
+main .documnets h1 {
+  display: inline-block;
+  width: 199px;
+  height: 38px;
+  margin: 0 auto;
+  margin-bottom: 53px;
+  color: #6a462b;
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 38px;
+}
+main .documnets .documnets-download {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  width: 830px;
+  height: 190px;
+  margin: 0 auto;
+}
+main .documnets .documnets-download div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  width: 230px;
+  height: 100%;
+  border: 2px solid #6a462b;
+  border-radius: 5px;
+}
+main .documnets .documnets-download div > img {
+  display: block;
+  position: relative;
+  width: 54px;
+  height: 70px;
+  margin-top: 30px;
+}
+main .documnets .documnets-download div > p {
+  display: inline-block;
+  width: 151px;
+  height: 36px;
+  margin-top: 23px;
+  color: #222222;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: center;
+}
+main .documnets .documnets-download div:hover {
+  cursor: pointer;
+}
+main .aboutCompany {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin-top: 210px;
+  background-color: #6a462b;
+}
+main .aboutCompany h1 {
+  display: inline-block;
+  width: 447px;
+  height: 38px;
+  margin: 55px auto 53px auto;
+  color: #ffd21f;
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 38px;
+}
+main .aboutCompany > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  width: 1166px;
+  height: 380px;
+  margin: 0 auto;
+}
+main .aboutCompany > div .aboutCompany-numbers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: space-between;
+      -ms-flex-align: space-between;
+          align-items: space-between;
+  position: relative;
+  width: 570px;
+  height: 100%;
+}
+main .aboutCompany > div .aboutCompany-numbers > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  width: 260px;
+  height: 165px;
+  top: 5px;
+  left: 5px;
+  border-radius: 5px;
+}
+main .aboutCompany > div .aboutCompany-numbers > div span {
+  display: inline-block;
+  width: auto;
+  height: 64px;
+  margin-top: 38px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 64px;
+  text-align: center;
+}
+main .aboutCompany > div .aboutCompany-numbers > div p {
+  display: inline-block;
+  width: 220px;
+  height: 36px;
+  margin-top: 13px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+}
+main .aboutCompany > div .aboutCompany-numbers > div .opacity {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -5px;
+  border-radius: 5px;
+  border: 5px solid #fff;
+  opacity: 0.3;
+}
+main .aboutCompany > div .aboutCompany-numbers > div:nth-child(2),
+main .aboutCompany > div .aboutCompany-numbers > div:last-child {
+  left: -5px;
+}
+main .aboutCompany > div .aboutCompany-numbers > div:nth-child(3),
+main .aboutCompany > div .aboutCompany-numbers > div:last-child {
+  top: 20px;
+}
+main .aboutCompany > div .aboutCompany-numbers > div:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 25px solid transparent;
+  border-top: 25px solid #ffd21f;
+}
+main .aboutCompany > div .aboutCompany-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  width: 566px;
+  height: 100%;
+}
+main .aboutCompany > div .aboutCompany-description p {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+}
+main .aboutCompany > div .aboutCompany-description button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  width: 500px;
+  height: 60px;
+  margin: 0 auto;
+  margin-top: 53px;
+  border: none;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.2);
+  background: -webkit-gradient(linear, left top, left bottom, from(#a2d417), to(#4c9918));
+  background: linear-gradient(to bottom, #a2d417 0%, #4c9918 100%);
+  color: #fefefe;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+}
+main .aboutCompany > div .aboutCompany-description button:hover {
+  cursor: pointer;
+}
+main .aboutCompany > p {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 170px;
+  margin-top: 51px;
+  color: #6a462b;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+  background-color: #ffd21f;
+  text-align: center;
+}
+main .aboutCompany:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 162px;
+  top: -161px;
+  background: url('../img/footer_decor_2.png') no-repeat;
+}

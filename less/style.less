@@ -766,4 +766,231 @@ main{
 			}
 		}
 	}
+	.documnets{
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		width: 100%;
+		height: 285px;
+		h1{
+			display: inline-block;
+			width: 199px;
+			height: 38px;
+			margin: 0 auto;
+			margin-bottom: 53px;
+			color: #6a462b;
+			font-family: 'Roboto', sans-serif;
+			font-size: 36px;
+			font-weight: 700;
+			line-height: 38px;
+		}
+		.documnets-download{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			position: relative;
+			width: 830px;
+			height: 190px;
+			margin: 0 auto;
+			div{
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				position: relative;
+				width: 230px;
+				height: 100%;
+				border: 2px solid #6a462b;
+				border-radius: 5px;
+				&>img{
+					display: block;
+					position: relative;
+					width: 54px;
+					height: 70px;
+					margin-top: 30px;
+				}
+				&>p{
+					display: inline-block;
+					width: 151px;
+					height: 36px;
+					margin-top: 23px;
+					color: #222222;
+					font-family: 'Roboto', sans-serif;
+					font-size: 16px;
+					font-weight: 700;
+					line-height: 18px;
+					text-align: center;
+				}
+			}
+			div:hover{
+				cursor: pointer;
+			}
+		}
+	}
+	.aboutCompany{
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		width: 100%;
+		height: auto;
+		margin-top: 49+161px;
+		background-color: #6a462b;
+		h1{
+			display: inline-block;
+			width: 447px;
+			height: 38px;
+			margin: 55px auto 53px auto;
+			color: #ffd21f;
+			font-family: 'Roboto', sans-serif;
+			font-size: 36px;
+			font-weight: 700;
+			line-height: 38px;
+		}
+		&>div{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			position: relative;
+			width: 1166px;
+			height: 380px;
+			margin: 0 auto;
+			.aboutCompany-numbers{
+				display: flex;
+				flex-direction: row;
+				flex-wrap: wrap;
+				justify-content: space-between;
+				align-items: space-between;
+				position: relative;
+				width: 270*2+30px;
+				height: 100%;
+				&>div{
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					position: relative;
+					width: 260px;
+					height: 165px;
+					top: 5px;
+					left: 5px;
+					border-radius: 5px;
+					span{
+						display: inline-block;
+						width: auto;
+						height: 64px;
+						margin-top: 38px;
+						color: #fff;
+						font-family: 'Roboto', sans-serif;
+						font-size: 60px;
+						font-weight: 700;
+						line-height: 64px;
+						text-align: center;
+					}
+					p{
+						display: inline-block;
+						width: 220px;
+						height: 36px;
+						margin-top: 13px;
+						color: #fff;
+						font-family: 'Roboto', sans-serif;
+						font-size: 16px;
+						font-weight: 400;
+						line-height: 18px;
+						text-align: center;
+					}
+					.opacity{
+						display: block;
+						position: absolute;
+						width: 100%;
+						height: 100%;
+						top: -5px;
+						border-radius: 5px;
+						border: 5px solid #fff;
+						opacity: 0.3;
+					}
+				}
+				&>div:nth-child(2),
+				&>div:last-child{
+					left: -5px;
+				}
+				&>div:nth-child(3),
+				&>div:last-child{
+					top: 20px;
+				}
+				&>div:after{
+					content: '';
+					display: block;
+					position: absolute;
+					width: 0;
+					height: 0;
+					border: 25px solid transparent;
+					border-top: 25px solid #ffd21f;
+				}
+			}
+			.aboutCompany-description{
+				display: flex;
+				flex-direction: column;
+				position: relative;
+				width: 566px;
+				height: 100%;
+				p{
+					display: inline-block;
+					width: 100%;
+					height: auto;
+					margin: 0;
+					color: #fff;
+					font-family: 'Roboto', sans-serif;
+					font-size: 16px;
+					font-weight: 400;
+					line-height: 21px;
+				}
+				button{
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					align-items: center;
+					position: relative;
+					width: 500px;
+					height: 60px;
+					margin: 0 auto;
+					margin-top: 53px;
+					border: none;
+					border-radius: 5px;
+					box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.2);
+					background: linear-gradient(to bottom, #a2d417 0%, #4c9918 100%);
+					color: #fefefe;
+					font-family: 'Roboto', sans-serif;
+					font-size: 18px;
+					font-weight: 700;
+					line-height: 20px;
+				}
+				button:hover{
+					cursor: pointer;
+				}
+			}
+		}
+		&>p{
+			display: inline-flex;
+			position: relative;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			height: 170px;
+			margin-top: 51px;
+			color: #6a462b;
+			font-family: 'Roboto', sans-serif;
+			font-size: 30px;
+			font-weight: 700;
+			line-height: 40px;
+			background-color: #ffd21f;
+			text-align: center;
+		}
+	}
+	.aboutCompany:before{
+		content: '';
+		display: block;
+		position: absolute;
+		width: 100%;
+		height: 162px;
+		top: -161px;
+		background: url('../img/footer_decor_2.png') no-repeat;
+	}
 }
