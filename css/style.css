@@ -1273,3 +1273,193 @@ main .aboutCompany:before {
   top: -161px;
   background: url('../img/footer_decor_2.png') no-repeat;
 }
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-bottom: 51px;
+}
+footer h1 {
+  display: inline-block;
+  width: 719px;
+  height: 76px;
+  margin: 54px auto 56px auto;
+  color: #ffd21f;
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 38px;
+  text-align: center;
+}
+footer address {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  width: 1170px;
+  height: 458px;
+  margin: 0 auto;
+}
+footer address .publicTransport {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  width: 338px;
+  height: 224px;
+}
+footer address .publicTransport h2 {
+  display: inline-block;
+  position: relative;
+  width: 172px;
+  height: 31px;
+  left: 110px;
+  color: #6a462b;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 31px;
+  font-style: normal;
+  margin-bottom: 5px;
+}
+footer address .publicTransport > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  width: 100%;
+  height: 36px;
+}
+footer address .publicTransport > div > div {
+  display: block;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 5px solid #ffd21f;
+  background: #fff;
+}
+footer address .publicTransport > div > div:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 5px;
+  left: 5px;
+  border-radius: 50%;
+  background: #ffd21f;
+}
+footer address .publicTransport > div p {
+  display: inline-block;
+  width: 294px;
+  height: 100%;
+  color: #444444;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  font-style: normal;
+}
+footer address .publicTransport > div:nth-child(2) > div:before,
+footer address .publicTransport > div:nth-child(3) > div:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 3px;
+  height: 43px;
+  top: 20px;
+  left: 9px;
+  background: #ffd21f;
+  z-index: -10;
+}
+footer address .publicTransport > div:last-child p {
+  height: 18px;
+}
+footer address .autoMap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  width: 770px;
+  height: 458px;
+}
+footer address .autoMap h2 {
+  display: inline-block;
+  width: 216px;
+  height: 32px;
+  margin: 0 auto;
+  color: #6a462b;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 32px;
+  font-style: normal;
+}
+footer address .autoMap div {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 395px;
+  background: pink;
+}
+footer .details {
+  display: block;
+  position: relative;
+  width: 430px;
+  height: 218px;
+  margin: 0 auto;
+  margin-top: 102px;
+  border-collapse: collapse;
+  text-align: center;
+  color: #999999;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+footer .details tr {
+  height: 18px;
+}
