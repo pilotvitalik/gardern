@@ -10,6 +10,7 @@
   <link href='css/1000.css' rel='stylesheet' type='text/css' media="(min-width: 1000px) and (max-width: 1199px)"/>
   <link href='css/768.css' rel='stylesheet' type='text/css' media="(min-width: 768px) and (max-width: 999px)"/>
   <link href='css/320.css' rel='stylesheet' type='text/css' media="(min-width: 320px) and (max-width: 767px)"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
 	<header>
@@ -53,14 +54,14 @@
 	    		  	<span><b>Разрешение</b> для дачного строительства <b>с правом</b> возведения жилого дома, <b>регистрации и проживания</b></span>
 	    		</div>
 	    	</div>
-	    	<form>
+	    	<form id='headerForm'>
 	    	  <legend><b>Оставьте заявку</b> сейчас <b>и получите скидку 30%</b> на участок и коммуникации
 	    	  </legend>
 	    	  <label>
-	    	  	<input type='text' placeholder='Ваше имя'>
+	    	  	<input id='headerName' type='text' name='name' placeholder='Ваше имя'>
 	    	  </label>
 	    	  <label>
-	    	  	<input type='text' placeholder='Ваш телефон'>
+	    	  	<input id='headerPhone' type='text' name='phone' placeholder='Ваш телефон'>
 	    	  </label>
 	    	  <button>
 	    	  	Получить скидку
@@ -366,5 +367,6 @@
 	  			<tr><td>Физ.  адрес: 105120, г. Москва, Гжельский пер. 13а, стр.3, каб.6</td></tr>
 	  		</table>
   	</footer>
+  	<script src='js/request.js'></script>
 </body>
 </html>
