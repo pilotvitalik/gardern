@@ -146,7 +146,7 @@ header > div:last-child form {
   border-radius: 5px;
 }
 header > div:last-child form legend {
-  width: 241px;
+  width: 243px;
   height: 66px;
   font-size: 20px;
 }
@@ -272,7 +272,7 @@ main .review {
   padding-top: 53px;
 }
 main .review h1 {
-  width: 406px;
+  width: 408px;
   height: 39px;
   font-size: 36px;
   line-height: 39px;
@@ -317,7 +317,7 @@ main .review .review-specific div:last-child a {
   height: 100%;
 }
 main .review span {
-  width: 809px;
+  width: 811px;
   height: 70px;
   font-size: 24px;
   line-height: 35px;
@@ -333,7 +333,7 @@ main .review button {
   line-height: 20px;
 }
 main .photoGallery > h1 {
-  width: 356px;
+  width: 359px;
   height: 38px;
   margin: 54px auto 53px auto;
   font-size: 36px;
@@ -361,12 +361,12 @@ main .photoGallery .photoGallery-photos > img {
   left: 200px;
 }
 main .photoGallery .photoGallery-photos > img:nth-child(2) {
-  left: -31px;
+  left: -3.2%;
   -webkit-transform: scale(0.89, 0.89);
           transform: scale(0.89, 0.89);
 }
 main .photoGallery .photoGallery-photos > img:nth-child(4) {
-  left: 431.5px;
+  left: 44.4%;
   -webkit-transform: scale(0.89, 0.89);
           transform: scale(0.89, 0.89);
 }
@@ -376,7 +376,7 @@ main .photoGallery .photoGallery-package {
   margin: 104px auto;
 }
 main .photoGallery .photoGallery-package h1 {
-  width: 665px;
+  width: 671px;
   height: 38px;
   font-size: 36px;
   line-height: 38px;
@@ -470,7 +470,7 @@ main .aboutCompany {
   margin-top: 210px;
 }
 main .aboutCompany h1 {
-  width: 447px;
+  width: 450px;
   height: 38px;
   margin: 55px auto 53px auto;
   font-size: 36px;
@@ -556,7 +556,7 @@ footer {
   padding-bottom: 51px;
 }
 footer h1 {
-  width: 719px;
+  width: 722px;
   height: 76px;
   margin: 54px auto 56px auto;
   font-size: 36px;
@@ -617,7 +617,7 @@ footer address .autoMap h2 {
   font-size: 30px;
   line-height: 32px;
 }
-footer address .autoMap div {
+footer address .autoMap #map {
   height: 395px;
 }
 footer .details {

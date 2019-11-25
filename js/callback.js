@@ -6,11 +6,25 @@ let closeImgPlane = document.querySelector('#closeImgPlane');
 let modalImg = document.querySelector('.modalImg');
 let showImgPlane = document.querySelector('#showImgPlane');
 
+
+outScrollBar();
+
+$( window ).resize(function() {
+    outScrollBar();
+});
+
+function outScrollBar() {
+	let outScroll = window.innerWidth;
+	body.style.width = outScroll + 'px';
+	body.style.overflowX = 'hidden';
+}
+
 for(let i = 0; i < btn.length; i++){
 		btn[i].onclick = () => {
 		modalWindow.classList.toggle('active');
 		body.style.pointerEvents = 'none';
 		body.style.overflow = 'hidden';
+		// send data to email
 		$('#modalForm').submit(function(event) {
 			if($('#modalName')[0].value === ''){
 				event.preventDefault();

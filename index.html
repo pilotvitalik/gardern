@@ -4,6 +4,8 @@
   <title>Своя дача</title>
   <meta charset='utf-8'>
   <meta name='viewport' content='width=device-width. initial-scale=1'>
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <link href='css/style.css' rel='stylesheet' type='text/css' />
   <link href='css/1200.css' rel='stylesheet' type='text/css' media="(min-width: 1200px)"/>
@@ -390,26 +392,23 @@
   	<script src='js/callback.js'></script>
   	<script src='js/rewind.js'></script>
   	<script src='js/slider.js'></script>
-  	
   	<script>
+  	      function initMap() {
+  	        var myLatLng = {lat: 55.748249, lng: 37.678497};
 
-      function initMap() {
-        var myLatLng = {lat: 55.748249, lng: 37.678497};
+  	        var map = new google.maps.Map(document.getElementById('map'), {
+  	          zoom: 15,
+  	          center: myLatLng
+  	        });
 
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 17,
-          center: myLatLng
-        });
-
-        var marker = new google.maps.Marker({
-          position: myLatLng,
-          map: map,
-          title: 'Hello World!'
-        });
-      }
-    </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBK3ahQG5SqreA54xHCkEPKcJLTgzLHQos&callback=initMap">
-    </script>
+  	        var marker = new google.maps.Marker({
+  	          position: myLatLng,
+  	          map: map,
+  	        });
+  	      }
+  	    </script>
+  	    <script async defer
+  	    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBK3ahQG5SqreA54xHCkEPKcJLTgzLHQos&callback=initMap">
+  	    </script>
 </body>
 </html>

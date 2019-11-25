@@ -442,7 +442,7 @@ main .photoGallery .photoGallery-photos > img {
   left: 8.33333333%;
 }
 main .photoGallery .photoGallery-photos > img:nth-child(2) {
-  left: -4.66666667%;
+  left: -4.5%;
   -webkit-transform: scale(0.89, 0.89);
           transform: scale(0.89, 0.89);
 }
@@ -754,7 +754,7 @@ footer address .autoMap h2 {
   line-height: 26px;
   margin: 0 auto;
 }
-footer address .autoMap div {
+footer address .autoMap #map {
   height: 250px;
   margin-top: 26px;
 }

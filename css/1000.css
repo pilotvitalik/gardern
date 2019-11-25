@@ -357,12 +357,12 @@ main .photoGallery .photoGallery-photos > img {
   left: 200px;
 }
 main .photoGallery .photoGallery-photos > img:nth-child(2) {
-  left: -31px;
+  left: -3.2%;
   -webkit-transform: scale(0.89, 0.89);
           transform: scale(0.89, 0.89);
 }
 main .photoGallery .photoGallery-photos > img:nth-child(4) {
-  left: 431.5px;
+  left: 44.4%;
   -webkit-transform: scale(0.89, 0.89);
           transform: scale(0.89, 0.89);
 }
@@ -618,7 +618,7 @@ footer address .autoMap h2 {
   font-size: 30px;
   line-height: 32px;
 }
-footer address .autoMap div {
+footer address .autoMap #map {
   height: 395px;
   margin-top: 36px;
 }

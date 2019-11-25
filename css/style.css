@@ -847,6 +847,7 @@ main .photoGallery .photoGallery-package h1 {
   color: #6a462b;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
+  text-align: center;
 }
 main .photoGallery .photoGallery-package > div {
   display: -webkit-box;
@@ -1333,6 +1334,7 @@ footer address .autoMap #map {
   display: block;
   position: relative;
   width: 100%;
+  z-index: 100;
 }
 footer .details {
   display: block;
