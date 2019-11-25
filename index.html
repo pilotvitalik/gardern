@@ -13,6 +13,31 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
+	<div class='modalImg'>
+		<div class='content'>
+			<img src='img/plan_for_sale-img.jpg' alt='генеральный план'>
+			<img src='img/closeBtnImg.png' alt='close' id='closeImgPlane'>
+		</div>
+	</div>
+	<div class='modal'>
+		<div class='content'>
+			<img src='img/closeBtn.png' alt='close' id='closeBtn'>
+			<form id='modalForm'>
+				<legend>
+					Оставьте Ваши контактные данные и наш сотрудник свяжется с Вами
+			    </legend>
+			  <label>
+			  		<input id='modalName' type='text' name='name' placeholder='Ваше имя'>
+			  </label>
+			  <label>
+			  	<input id='modalPhone' type='text' name='phone' placeholder='Ваш телефон'>
+			  </label>
+			  <button>
+			  	Перезвонить
+			  </button>
+			</form>
+		</div>
+	</div>
 	<header>
 		<img src='img/header-img.jpg' alt='фото поселка'>
 		<div>
@@ -20,7 +45,7 @@
 	  		<span>
 	  		 Хотите иметь свой участок в Подмосковье?
 	  		</span>
-	  		<button>
+	  		<button class='callback'>
 	  		  Перезвоните мне
 	  		</button>
 		</div>
@@ -139,7 +164,7 @@
 	    				Любой здесь земельный участок или программа ИЖС по Новорязанскому шоссе станет верным шагом для тех, кто желает окружить себя и свою семью чистой природой, имея также возможность водить детей в учебные заведения и развлекательные места для досуга.
 	    			</p>
 	    		</section>
-	    		<button>
+	    		<button class='callback'>
 	    			Записаться на просмотр участка
 	    		</button>
 	   		</div>
@@ -162,20 +187,20 @@
 	    	</div>
 	    	<div class='review-specific'>
 	    		<div>
-	    			<button>
+	    			<button id='showImgPlane'>
 	    				Посмотреть генеральный<br> план 
 	    			</button>
 	    		</div>
 	    		<div>
 	    			<button>
-	    				Ознакомиться с ценами<br> на участки
+	    				<a href='http://svoiadacha.ru/vladimirovka/#tabs-1' target='_blank'>Ознакомиться с ценами<br> на участки</a>
 	    			</button>
 	    		</div>
 	    	</div>
 	    	<span>
 	    		Здесь Вы можете реализовать свою мечту - <br>жить в загородном доме и пользоваться всеми благами цивилизации!
 	    	</span>
-	    	<button>
+	    	<button class='callback'>
 	    		Записаться на просмотр участка
 	    	</button>
 	    </article>
@@ -184,13 +209,13 @@
 	    		Фотографии посёлка
 	    	</h1>
 	    	<div class='photoGallery-photos'>
-	    		<button>
+	    		<button id='leftBtn'>
 	    			<img src='img/left.svg' alt='влево'>
 	    		</button>
-	    		<img src='img/slider-3.jpg' alt='природа'>
-	    		<img src='img/slider-1.jpg' alt='дом'>
-	    		<img src='img/slider-2.jpg' alt='поле'>
-	    		<button>
+	    		<img class='photo' src='img/slider-3.jpg' alt='природа'>
+	    		<img class='photo' src='img/slider-1.jpg' alt='дом'>
+	    		<img class='photo' src='img/slider-2.jpg' alt='поле'>
+	    		<button id=rightBtn>
 	    			<img src='img/right.svg' alt='вправо'>
 	    		</button>
 	    	</div>
@@ -228,8 +253,8 @@
 	    				</table>
 	    			</div>
 	    		</div>
-	    		<button>
-	    			Поулчить консультацию
+	    		<button class='callback'>
+	    			Получить консультацию
 	    		</button>
 	    	</section>
 	    </article>
@@ -240,21 +265,15 @@
 	    	<div class='documnets-download'>
 	    		<div>
 	    			<img src='img/pdf.png' alt='pdf'>
-	    			<p>
-	    				ТУ Владимировка
-	    			</p>
+	    			<a download href='./docs/ТУ_Владимировка.pdf'>ТУ Владимировка</a>
 	    		</div>
 	    		<div>
 	    			<img src='img/pdf.png' alt='pdf'>
-	    			<p>
-	    				Договор<br> Тех. присоединение
-	    			</p>
+	    			<a download href='./docs/Договор_тех_присоединения_Владимировка.pdf'>Договор<br> Тех. присоединение</a>
 	    		</div>
 	    		<div>
 	    			<img src='img/pdf.png' alt='pdf'>
-	    			<p>
-	    				Новая квитанция по оплате земли
-	    			</p>
+	    			<a download href='./docs/Новая_квитанция_Владимировка.pdf'>Новая квитанция по оплате земли</a>
 	    		</div>
 	    	</div>
 	    </aside>
@@ -301,8 +320,8 @@
 	    			<p>
 	    				Продажа земли в привлекательном месте на опушке леса или у водоема в любом из посёлков от компании «СВОЯ ДАЧА» — выгодное предложение для капиталовложения.
 	    			</p>
-	    			<button>
-	    				Получить скидку 30%<br> от компании "Своя Дача"
+	    			<button >
+	    				<a href='#headerForm'>Получить скидку 30%<br> от компании "Своя Дача"</a>
 	    			</button>
 	    		</div>
 	    	</div>
@@ -368,5 +387,8 @@
 	  		</table>
   	</footer>
   	<script src='js/request.js'></script>
+  	<script src='js/callback.js'></script>
+  	<script src='js/rewind.js'></script>
+  	<script src='js/slider.js'></script>
 </body>
 </html>

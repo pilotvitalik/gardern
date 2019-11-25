@@ -1,3 +1,57 @@
+.modal{
+	.content{
+		width: 500px;
+		height: 280px;
+		border-radius: 20px;
+		&>form{
+			width: 350px;
+			border-radius: 5px;
+			legend{
+				width: 350px;
+				height: 50px;
+				font-size: 20px;
+			}
+			label{
+				width: 270px;
+				height: 60px;
+				input{
+					width: 256px;
+					padding-left: 14px;
+					font-size: 16px;
+				}
+			}
+			label:nth-child(2):after{
+				width: 18px;
+				height: 18px;
+				top: 22px;
+				right: 14px;
+			}
+			label:nth-child(3):after{
+				width: 18px;
+				height: 18px;
+				top: 22px;
+				right: 14px;
+			}
+			button{
+				width: 270px;
+				height: 60px;
+				border-radius: 5px;
+				box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.2);
+				font-size: 18px;
+			}
+		}
+	}
+}
+.modalImg{
+	&>.content{
+		width: 814px;
+		height: 585px;
+		&>img:last-child{
+			top: 10px;
+			right: 10px;
+		}
+	}
+}
 header{
 	height: 795px;
 	&>div:nth-child(2){
@@ -266,6 +320,12 @@ main{
 					line-height: 20px;
 				}
 			}
+			div:last-child{
+				a{
+					width: 100%;
+					height: 100%;
+				}
+			}
 		}
 		span{
 			width: 809px;
@@ -412,10 +472,10 @@ main{
 					height: 70px;
 					margin-top: 30px;
 				}
-				&>p{
-					width: 151px;
-					height: 36px;
-					margin-top: 23px;
+				&>a{
+					width: 100%;
+					height: 100%;
+					margin-top: 124px;
 					font-size: 16px;
 					line-height: 18px;
 				}
@@ -480,14 +540,17 @@ main{
 					font-size: 16px;
 					line-height: 21px;
 				}
-				button{
+				&>button{
 					width: 500px;
 					height: 60px;
 					margin-top: 53px;
 					border-radius: 5px;
 					box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.2);
-					font-size: 18px;
-					line-height: 20px;
+					&>a{
+						border-radius: 5px;
+						font-size: 18px;
+						line-height: 20px;
+					}
 				}
 			}
 		}

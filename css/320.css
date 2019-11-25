@@ -1,3 +1,55 @@
+.modal .content {
+  width: 310px;
+  height: 400px;
+  border-radius: 10px;
+}
+.modal .content > form {
+  width: 300px;
+  height: 350px;
+  border-radius: 5px;
+}
+.modal .content > form legend {
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+}
+.modal .content > form label {
+  width: 270px;
+  height: 60px;
+}
+.modal .content > form label input {
+  width: 256px;
+  padding-left: 14px;
+  font-size: 16px;
+}
+.modal .content > form label:nth-child(2):after {
+  width: 18px;
+  height: 18px;
+  top: 22px;
+  right: 14px;
+}
+.modal .content > form label:nth-child(3):after {
+  width: 18px;
+  height: 18px;
+  top: 22px;
+  right: 14px;
+}
+.modal .content > form button {
+  width: 270px;
+  height: 60px;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.2);
+  font-size: 18px;
+}
+.modalImg > .content {
+  width: 320px;
+  height: 226px;
+}
+.modalImg > .content > img:last-child {
+  top: 10px;
+  right: 10px;
+}
 header {
   height: 1200px;
 }
@@ -500,11 +552,11 @@ main .documnets .documnets-download div > img {
   height: 70px;
   margin-left: 15px;
 }
-main .documnets .documnets-download div > p {
+main .documnets .documnets-download div > a {
   width: 152px;
   height: auto;
   margin-top: 0;
-  margin-left: 16px;
+  left: 84px;
   font-size: 16px;
   line-height: 18px;
   text-align: left;
@@ -598,10 +650,12 @@ main .aboutCompany > div:nth-child(2) .aboutCompany-description button {
   border-radius: 5px;
   -webkit-box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.2);
           box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.2);
+}
+main .aboutCompany > div:nth-child(2) .aboutCompany-description button a {
   font-size: 18px;
   line-height: 20px;
 }
-main .aboutCompany > div:nth-child(2) .aboutCompany-description button br {
+main .aboutCompany > div:nth-child(2) .aboutCompany-description button a br {
   display: block;
 }
 main .aboutCompany > div:last-child {
