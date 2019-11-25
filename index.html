@@ -367,7 +367,7 @@
 	  			<h2>
 	  				На автомобиле
 	  			</h2>
-	  			<div>
+	  			<div id='map'>
 	  			</div>
 	  		</div>
 	  	</address>
@@ -390,5 +390,26 @@
   	<script src='js/callback.js'></script>
   	<script src='js/rewind.js'></script>
   	<script src='js/slider.js'></script>
+  	
+  	<script>
+
+      function initMap() {
+        var myLatLng = {lat: 55.748249, lng: 37.678497};
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 17,
+          center: myLatLng
+        });
+
+        var marker = new google.maps.Marker({
+          position: myLatLng,
+          map: map,
+          title: 'Hello World!'
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBK3ahQG5SqreA54xHCkEPKcJLTgzLHQos&callback=initMap">
+    </script>
 </body>
 </html>

@@ -1329,11 +1329,10 @@ footer address .autoMap h2 {
   font-weight: 700;
   font-style: normal;
 }
-footer address .autoMap div {
+footer address .autoMap #map {
   display: block;
   position: relative;
   width: 100%;
-  background: pink;
 }
 footer .details {
   display: block;

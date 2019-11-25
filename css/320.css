@@ -51,7 +51,7 @@
   right: 10px;
 }
 header {
-  height: 1200px;
+  height: 1210px;
 }
 header > img {
   -webkit-transform: scale(4.5, 1);
@@ -65,7 +65,7 @@ header > div:nth-child(2) {
   -webkit-box-pack: unset;
       -ms-flex-pack: unset;
           justify-content: unset;
-  height: 440px;
+  height: 510px;
 }
 header > div:nth-child(2) img {
   width: 85px;
@@ -84,7 +84,7 @@ header > div:nth-child(2) button {
   width: 270px;
   height: 60px;
   margin: 0 auto;
-  margin-top: 246px;
+  margin-top: 315px;
   border-radius: 5px;
   -webkit-box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.2);
           box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.2);
@@ -98,7 +98,7 @@ header > div:nth-child(3) {
           justify-content: unset;
   width: 300px;
   height: 236px;
-  margin-top: -280px;
+  margin-top: -320px;
 }
 header > div:nth-child(3) span:first-child {
   height: 172px;
@@ -114,7 +114,7 @@ header > div:nth-child(3) span:nth-child(2) {
 header > div:nth-child(3) span:last-child {
   height: 38px;
   font-size: 20px;
-  margin-top: -23px;
+  margin-top: 15px;
 }
 header > div:last-child {
   -ms-flex-wrap: wrap;
@@ -124,7 +124,7 @@ header > div:last-child {
           justify-content: unset;
   width: 300px;
   height: 670px;
-  margin-top: 63px;
+  margin-top: 103px;
 }
 header > div:last-child .advantage {
   width: 300px;
@@ -565,7 +565,7 @@ main .aboutCompany {
   margin-top: 60px;
 }
 main .aboutCompany h1 {
-  width: 196px;
+  width: 198px;
   height: 64px;
   margin: 33.5px auto;
   font-size: 30px;
