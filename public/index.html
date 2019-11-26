@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang='ru'>
+<head>
+  <title>Своя дача</title>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width. initial-scale=1'>
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link href='style.css' rel='stylesheet' type='text/css' />
+  <link href='1.css' rel='stylesheet' type='text/css' />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+	<div class='modalImg'>
+		<div class='content'>
+			<img src='img/plan_for_sale-img.jpg' alt='генеральный план'>
+			<img src='img/closeBtnImg.png' alt='close' id='closeImgPlane'>
+		</div>
+	</div>
+	<div class='modal'>
+		<div class='content'>
+			<img src='img/closeBtn.png' alt='close' id='closeBtn'>
+			<form id='modalForm'>
+				<legend>
+					Оставьте Ваши контактные данные и наш сотрудник свяжется с Вами
+			    </legend>
+			  <label>
+			  		<input id='modalName' type='text' name='name' placeholder='Ваше имя'>
+			  </label>
+			  <label>
+			  	<input id='modalPhone' type='text' name='phone' placeholder='Ваш телефон'>
+			  </label>
+			  <button>
+			  	Перезвонить
+			  </button>
+			</form>
+		</div>
+	</div>
+	<header>
+		<img src='img/header-img.jpg' alt='фото поселка'>
+		<div>
+	  		<img src='img/logo.png'>
+	  		<span>
+	  		 Хотите свой участок в Подмосковье?
+	  		</span>
+	  		<button class='callback'>
+	  		  Перезвоните мне
+	  		</button>
+		</div>
+	  	<div>
+	  		<span>
+	  		  Акция в январе - 30% скидка на землю и коммуникации в п. Владимировка
+	  		</span>
+	  		<span></span>
+	  		<span>
+	  		  <b>Внимание!</b> Осталось <b>63</b> участка из 215!
+	  		</span>
+	  	</div>   
+	    <div>
+	    	<div class='advantage'>
+	    		<div>
+	    			<div class='number'>
+	    				<span>01.</span>
+	    			</div>
+	    			<span><b>50 минут</b> езды от Москвы</span>
+	    		</div>
+	    		<div>
+	    			<div class='number'>
+	    				<span>02.</span>
+	    			</div>
+	    		    <span><b>55 км</b> от МКАД по Новорязанскому шоссе</span>
+	    		</div>
+	    		<div>
+	    			<div class='number'>
+	    				<span>03.</span>
+	    			</div>
+	    		  	<span><b>Разрешение</b> для дачного строительства <b>с правом</b> возведения жилого дома, <b>регистрации и проживания</b></span>
+	    		</div>
+	    	</div>
+	    	<form id='headerForm'>
+	    	  <legend><b>Оставьте заявку</b> сейчас <b>и получите скидку 30%</b> на участок и коммуникации
+	    	  </legend>
+	    	  <label>
+	    	  	<input id='headerName' type='text' name='name' placeholder='Ваше имя'>
+	    	  </label>
+	    	  <label>
+	    	  	<input id='headerPhone' type='text' name='phone' placeholder='Ваш телефон'>
+	    	  </label>
+	    	  <button>
+	    	  	Получить скидку
+	    	  </button>
+	    	</form>
+	    </div>
+  	</header>
+	<main>
+	    <article class='infrastructure'>
+	    	<h1>
+	    		Инфраструктура
+	    	</h1>
+	    	<div class='infrastructure-images'>
+	    		<div>
+	    			<div>
+	    				<img src='img/01_electricity.svg'>
+	    			</div>
+	    			<span>Электричество 15кВт «под ключ»</span>
+	    		</div>
+	    		<div>
+	    			<div>
+	    				<img src='img/02_border.svg'>
+	    			</div>
+	    			<span>КПП с автоматическим шлагбаумом</span>
+	    		</div>
+	    		<div>
+	    			<div>
+	    				<img src='img/03_roads.svg'>
+	    			</div>
+	    			<span>Дороги из песчано-гравийной смеси</span>
+	    		</div>
+	    		<div>
+	    			<div>
+	    				<img src='img/04_parking.svg'>
+	    			</div>
+	    			<span>Гостевая парковка</span>
+	    		</div>
+	    		<div>
+	    			<div>
+	    				<img src='img/05_bin.svg'>
+	    			</div>
+	    			<span>Площадка под ТБО</span>
+	    		</div>
+	    	</div>
+	    	<div class='infrastructure-description'>
+	    		<section>
+	    			<h2>
+	    				01.
+	    			</h2>
+	    			<p>
+	    				Территория этого дачного поселка хорошо благоустроена.<br>Здесь есть качественные утрипоселковые дороги. Также все собственники в будущем смогут, участвуя в коллективных собраниях, принимать решения об осуществлении мер по обустройству поселка и, например, проведении дополнительных коммуникаций.
+	    			</p>
+	    		</section>
+	    		<section>
+	    			<h2>
+	    				02.
+	    			</h2>
+	    			<p>
+	    				Транспортное же хозяйство, относящееся к Новорязанскому шоссе, существенно изменилось в последние годы. Дорога «М5» сейчас имеет уже по 4 полосы в каждую сторону, а также идеально ровное покрытие и удобные необходимые съезды. 
+	    			</p>
+	    		</section>
+	    		<section>
+	    			<h2>
+	    				03.
+	    			</h2>
+	    			<p>
+	    				Недалеко от Владимировки расположился г. Бронницы. Он, в свою очередь, также предлагает массу преимущество развитой инфраструктуры в виде детских садов, юношеской школы олимпийского резерва, школы искусств, а также Дома культуры и творчества, спортцентры, городская поликлиника. Также здесь развлечения в виде кинотеатра и ТЦ.
+	    			</p>
+	    		</section>
+	    		<section>
+	    			<h2>
+	    				04.
+	    			</h2>
+	    			<p>
+	    				Любой здесь земельный участок или программа ИЖС по Новорязанскому шоссе станет верным шагом для тех, кто желает окружить себя и свою семью чистой природой, имея также возможность водить детей в учебные заведения и развлекательные места для досуга.
+	    			</p>
+	    		</section>
+	    		<button class='callback'>
+	    			Записаться на просмотр участка
+	    		</button>
+	   		</div>
+	    </article>
+	    <article class='review'>
+	    	<h1>Обзор<br> п. Владимировка</h1>
+	    	<div class='review-description'>
+	    		<div>
+	    			<img src='img/about-place-img-1.png' alt='дом'>
+	    			<p>
+	    				<b>Поселок Владимировка,</b> находящийся в районе Новорязанского шоссе, расположился вблизи деревни с таким же названием. Все жители этого поселения смогут в полной мере наслаждаться красотой и тишиной всех мест здесь. Так, например, совсем близко к поселению находится довольно большое озеро для купания и рыбалки. Земельные участки по Новорязанскому шоссе – это прекрасное вложение для тех, кто ценит природу и блага загородный жизни, не желая при этом отказаться от удобной и развитой инфраструктуры.    
+	    			</p>
+	    		</div>
+	    		<div>
+	    			<img src='img/about-place-img-2.png' alt='природа'>
+	    			<p>
+	    				<b>Стоимость участков во Владимировке</b> достаточно лояльна и доступна. Это позволит каждому, кто ищет такую местность для жизни, стать обладателем дома или летней дачи в месте с отменной транспортной доступностью. Так, купив земельный участок по Новорязанскому шоссе, вы получите отличное место для жизни и отдыха, а также воплотите свои мечты жизни вдали от мегаполиса в реальность!
+	    			</p>
+	    		</div>
+	    	</div>
+	    	<div class='review-specific'>
+	    		<div>
+	    			<button id='showImgPlane'>
+	    				Посмотреть генеральный<br> план 
+	    			</button>
+	    		</div>
+	    		<div>
+	    			<button>
+	    				<a href='http://svoiadacha.ru/vladimirovka/#tabs-1' target='_blank'>Ознакомиться с ценами<br> на участки</a>
+	    			</button>
+	    		</div>
+	    	</div>
+	    	<span>
+	    		Здесь Вы можете реализовать свою мечту - <br>жить в загородном доме и пользоваться всеми благами цивилизации!
+	    	</span>
+	    	<button class='callback'>
+	    		Записаться на просмотр<br> участка
+	    	</button>
+	    </article>
+	    <article class='photoGallery'>
+	    	<h1>
+	    		Фотографии посёлка
+	    	</h1>
+	    	<div class='photoGallery-photos'>
+	    		<button id='leftBtn'>
+	    			<img src='img/left.svg' alt='влево'>
+	    		</button>
+	    		<img class='photo' src='img/slider-3.jpg' alt='природа'>
+	    		<img class='photo' src='img/slider-1.jpg' alt='дом'>
+	    		<img class='photo' src='img/slider-2.jpg' alt='поле'>
+	    		<button id=rightBtn>
+	    			<img src='img/right.svg' alt='вправо'>
+	    		</button>
+	    	</div>
+	    	<section class='photoGallery-package'>
+	    		<h1>
+	    			Предлагаем 2 пакета благоустройства:
+	    		</h1>
+	    		<div>
+	    			<div>
+	    				<div>
+	    					<img src='img/pack_01.png' alt='пакет № 1'>
+	    				</div>
+	    				<table>
+	    					<tr><th>Пакет №1</th></tr>
+	    					<tr><td><b>120 000 руб.</b></td></tr>
+	    					<tr><td>получение ТУ на 15 кВт</td></tr>
+	    					<tr><td>договор на присоединение, шлагбаум, дороги из ПГС, площадка ТБО.</td></tr>
+	    					<tr><td><b>При рассрочке</b></td></tr>
+	    					<tr><td>на 6 мес. — 125 000 руб.,</td></tr>
+	    					<tr><td>на 1 год - 130 000 рублей</td></tr>
+	    				</table>
+	    			</div>
+	    			<div>
+	    				<div>
+	    					<img src='img/pack_02.png' alt='пакет № 2'>
+	    				</div>
+	    				<table>
+	    					<tr><th>Пакет №2</th></tr>
+	    					<tr><td><b>155 000 руб.</b></td></tr>
+	    					<tr><td>15 кВт «под ключ»</td></tr>
+	    					<tr><td>шлагбаум, дороги из ПГС, площадка ТБО.</td></tr>
+	    					<tr><td><b>При рассрочке</b></td></tr>
+	    					<tr><td>на 6 мес. — 160 000 руб.,</td></tr>
+	    					<tr><td>на 1 год — 165 000 руб.</td></tr>
+	    				</table>
+	    			</div>
+	    		</div>
+	    		<button class='callback'>
+	    			Получить консультацию
+	    		</button>
+	    	</section>
+	    </article>
+	    <aside class='documnets'>
+	    	<h1>
+	    	Документы
+	    	</h1>
+	    	<div class='documnets-download'>
+	    		<div>
+	    			<img src='img/pdf.png' alt='pdf'>
+	    			<a download href='docs/ТУ_Владимировка.pdf'>ТУ Владимировка</a>
+	    		</div>
+	    		<div>
+	    			<img src='img/pdf.png' alt='pdf'>
+	    			<a download href='docs/Договор_тех_присоединения_Владимировка.pdf'>Договор<br> Тех. присоединение</a>
+	    		</div>
+	    		<div>
+	    			<img src='img/pdf.png' alt='pdf'>
+	    			<a download href='docs/Новая_квитанция_Владимировка.pdf'>Новая квитанция<br> по оплате земли</a>
+	    		</div>
+	    	</div>
+	    </aside>
+	    <section class='aboutCompany'>
+	    	<h1>
+	    	О компании «СВОЯ ДАЧА»
+	    	</h1>
+	    	<div>
+	    		<div class='aboutCompany-numbers'>
+	    			<div>
+	    				<span>7</span>
+	    					<p>лет опыта на<br>Российском рынке</p>
+	    				<div class='opacity'>
+	    				</div>
+	    			</div>
+	    			<div>
+	    				<span>1518</span>
+	    				<p>Проданных участка</p>
+	    				<div class='opacity'>
+	    				</div>
+	    			</div>
+		    		<div>
+		    			<span>5024</span>
+		    			<p>Километров электрического кабеля протянуто, км</p>
+		    			<div class='opacity'>
+		    			</div>
+		    		</div>
+		    		<div>
+		    			<span>315</span>
+		    			<p>Проложенных дорог (км)</p>
+		    			<div class='opacity'>
+		    			</div>
+		    		</div>
+	    		</div>
+	    		<div class='aboutCompany-description'>
+	    			<p>
+	    				Компания «СВОЯ ДАЧА» — продажа земельных участков в Подмосковье на выгодных условиях, без посредников, с коммуникациями, по наиболее привлекательным ценам!
+	    			</p>
+	    			<br>
+	    			<p>
+	    				Среди преимуществ наших дачных поселков необходимо отдельно отметить наличие специально оборудованных парковых зон, спортивных и детских площадок, а также прочих мест для коллективного отдыха, отсутствие вблизи организованных посёлков вредных и опасных производств, а также доступность любых коммуникаций. 
+	    			</p>
+	    			<br>
+	    			<p>
+	    				Продажа земли в привлекательном месте на опушке леса или у водоема в любом из посёлков от компании «СВОЯ ДАЧА» — выгодное предложение для капиталовложения.
+	    			</p>
+	    			<button >
+	    				<a href='#headerForm'>Получить скидку 30%<br> от компании "Своя Дача"</a>
+	    			</button>
+	    		</div>
+	    	</div>
+	    	<div>
+		    	<p>
+		    		Мы продаём участки без посредников и по<br> гуманной<br> цене, чтобы Вы могли реально их купить!
+		    	</p>
+	    	</div>
+	    </section>
+	</main>
+  	<footer>
+	  	<h1>
+	  		Схема проезда до поселка Владимировка по Новорязанскому шоссе.
+	  	</h1>
+	  	<address>
+	  		<div class='publicTransport'>
+	  			<h2>
+	  				На автобусе
+	  			</h2>
+	  			<div>
+	  				<div>
+	  				</div>
+	  				<p>
+	  					От м. Выхино, либо от м. Котельники автобусами № 324, 358 до г. Бронницы
+	  				</p>
+	  			</div>
+	  			<div>
+	  				<div>
+	  				</div>
+	  				<p>
+	  					затем автобусом № 41 <br>(остановка Владимировка)
+	  				</p>
+	  			</div>
+	  			<div>
+	  				<div>
+	  				</div>
+	  				<p>
+	  					затем пешком 1,2 км.
+	  				</p>
+	  			</div>
+	  		</div>
+	  		<div class='autoMap'>
+	  			<h2>
+	  				На автомобиле
+	  			</h2>
+	  			<div id='map'>
+	  			</div>
+	  		</div>
+	  	</address>
+	  		<table class='details'>
+	  			<tr><td>ООО «Своя дача»</td></tr>
+	  			<tr><td>Юридический адрес: 140105, Московская область,</td></tr>
+	  			<tr><td>Раменский район, город Раменское,</td></tr>
+	  			<tr><td>ул. Воровского, дом 5, ком. 406</td></tr>
+	  			<tr><td>ОГРН 1125040004462 </td></tr>
+	  			<tr><td>ИНН 5040116628</td></tr>
+	  			<tr><td>КПП 504001001</td></tr>
+	  			<tr><td>р/с 40702810600710000094</td></tr>
+	  			<tr><td>в АО «ОТП Банк»  </td></tr>
+	  			<tr><td>к/с 30101810000000000311</td></tr>
+	  			<tr><td>БИК 044525311</td></tr>
+	  			<tr><td>Физ.  адрес: 105120, г. Москва, Гжельский пер. 13а, стр.3, каб.6</td></tr>
+	  		</table>
+  	</footer>
+  	<script src='1.main.js'></script>
+  	<script src='main.js'></script>
+  	<script>
+  	      function initMap() {
+  	        var myLatLng = {lat: 55.748249, lng: 37.678497};
+
+  	        var map = new google.maps.Map(document.getElementById('map'), {
+  	          zoom: 15,
+  	          center: myLatLng
+  	        });
+
+  	        var marker = new google.maps.Marker({
+  	          position: myLatLng,
+  	          map: map,
+  	        });
+  	      }
+  	    </script>
+  	    <script async defer
+  	    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBK3ahQG5SqreA54xHCkEPKcJLTgzLHQos&callback=initMap">
+  	    </script>
+</body>
+</html>
