@@ -3,6 +3,9 @@
   padding: 0;
   text-decoration: none;
 }
+body{
+  width: 101.1%;
+}
 .modal,
 .modalImg {
   display: none;
