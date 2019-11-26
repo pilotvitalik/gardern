@@ -5,9 +5,7 @@
 }
 .modal,
 .modalImg {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -25,7 +23,7 @@
   left: 0;
   background: rgba(0, 0, 0, 0.5);
   z-index: 1050;
-  opacity: 0;
+  opacity: 1;
   pointer-events: none;
 }
 .modal > .content,
@@ -152,7 +150,9 @@
   cursor: pointer;
 }
 .active {
-  opacity: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   pointer-events: auto;
   overflow: none;
 }
@@ -365,6 +365,7 @@ header > div:last-child form legend {
   color: #222222;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
+  text-align: center;
 }
 header > div:last-child form label {
   display: block;
@@ -444,6 +445,7 @@ main .infrastructure h1 {
   color: #6a462b;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
+  text-align: center;
 }
 main .infrastructure .infrastructure-images {
   display: -webkit-box;
@@ -584,6 +586,7 @@ main .review h1 {
   color: #6a462b;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
+  text-align: center;
 }
 main .review h1 br {
   display: none;
@@ -664,19 +667,7 @@ main .review .review-specific div {
   background: url('../img/plan-img.jpg') no-repeat;
 }
 main .review .review-specific div button {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  display: block;
   position: relative;
   border: none;
   background: -webkit-gradient(linear, left top, left bottom, from(#ffd21f), to(#e4751c));
@@ -734,19 +725,7 @@ main .review span {
   text-align: center;
 }
 main .review button {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  display: block;
   position: relative;
   border: none;
   background: -webkit-gradient(linear, left top, left bottom, from(#a2d417), to(#4c9918));
@@ -755,6 +734,9 @@ main .review button {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   outline: none;
+}
+main .review button br {
+  display: none;
 }
 main .review button:hover {
   cursor: pointer;
@@ -776,6 +758,7 @@ main .photoGallery > h1 {
   color: #6a462b;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
+  text-align: center;
 }
 main .photoGallery .photoGallery-photos {
   display: -webkit-box;
@@ -791,19 +774,7 @@ main .photoGallery .photoGallery-photos {
   margin: 0 auto;
 }
 main .photoGallery .photoGallery-photos button {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  display: block;
   position: absolute;
   border: none;
   border-radius: 50%;
@@ -814,6 +785,7 @@ main .photoGallery .photoGallery-photos button {
 main .photoGallery .photoGallery-photos button > img {
   display: block;
   position: relative;
+  margin: auto;
 }
 main .photoGallery .photoGallery-photos button:hover {
   cursor: pointer;
@@ -919,19 +891,7 @@ main .photoGallery .photoGallery-package > div > div table tr td {
   font-weight: 400;
 }
 main .photoGallery .photoGallery-package button {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  display: block;
   position: relative;
   border: none;
   background: -webkit-gradient(linear, left top, left bottom, from(#a2d417), to(#4c9918));
@@ -1002,6 +962,7 @@ main .documnets .documnets-download div > a {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   text-align: center;
+  vertical-align: middle;
 }
 main .documnets .documnets-download div:hover {
   cursor: pointer;
@@ -1024,6 +985,7 @@ main .aboutCompany h1 {
   color: #ffd21f;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
+  text-align: center;
 }
 main .aboutCompany > div:nth-child(2) {
   display: -webkit-box;
@@ -1260,6 +1222,7 @@ footer address .publicTransport h2 {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-style: normal;
+  text-align: center;
 }
 footer address .publicTransport > div {
   display: -webkit-box;
@@ -1329,6 +1292,7 @@ footer address .autoMap h2 {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-style: normal;
+  text-align: center;
 }
 footer address .autoMap #map {
   display: block;

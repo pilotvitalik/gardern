@@ -3,7 +3,6 @@ let headerForm = document.querySelector('#headerForm');
 
 btna.addEventListener('click', function(e) {
 	rewind(e);
-	defaultWidth();
 	setTimeout(focus, 1100);
 });
 

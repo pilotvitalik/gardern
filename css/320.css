@@ -173,7 +173,7 @@ header > div:last-child form {
   margin-top: 20px;
 }
 header > div:last-child form legend {
-  width: 241px;
+  width: 248px;
   height: 66px;
   font-size: 20px;
 }
@@ -214,7 +214,7 @@ main .infrastructure {
   padding-bottom: 0;
 }
 main .infrastructure h1 {
-  width: 234px;
+  width: 244px;
   height: 31px;
   font-size: 30px;
   line-height: 31px;
@@ -325,7 +325,7 @@ main .review {
   height: auto;
 }
 main .review h1 {
-  width: 244px;
+  width: 252px;
   height: 65px;
   font-size: 30px;
   line-height: 31px;
@@ -340,7 +340,7 @@ main .review .review-description {
   -webkit-box-align: space-around;
       -ms-flex-align: space-around;
           align-items: space-around;
-  width: 298px;
+  width: 302px;
   height: auto;
   margin-top: 35px;
 }
@@ -354,7 +354,7 @@ main .review .review-description div img {
   height: 80px;
 }
 main .review .review-description div p {
-  width: 203px;
+  width: 207px;
   height: auto;
   font-size: 16px;
   line-height: 17px;
@@ -393,7 +393,7 @@ main .review .review-specific div:last-child {
   margin-top: 30px;
 }
 main .review span {
-  width: 296px;
+  width: 301px;
   height: 113px;
   font-size: 20px;
   line-height: 23px;
@@ -412,8 +412,11 @@ main .review button {
   font-size: 18px;
   line-height: 20px;
 }
+main .review button br {
+  display: block;
+}
 main .photoGallery > h1 {
-  width: 94.6875%;
+  width: 95.9375%;
   height: 29px;
   margin: 32px auto;
   font-size: 30px;
@@ -457,7 +460,7 @@ main .photoGallery .photoGallery-package {
   margin: 163px auto 25px auto;
 }
 main .photoGallery .photoGallery-package h1 {
-  width: 83.38983051%;
+  width: 255px;
   height: 100px;
   font-size: 30px;
   line-height: 32px;
@@ -553,19 +556,32 @@ main .documnets .documnets-download div > img {
   margin-left: 15px;
 }
 main .documnets .documnets-download div > a {
-  width: 152px;
-  height: auto;
-  margin-top: 0;
-  left: 84px;
+  width: 212px;
+  height: 100%;
+  top: 0;
+  padding-left: 84px;
   font-size: 16px;
-  line-height: 18px;
+  line-height: 100px;
   text-align: left;
+}
+main .documnets .documnets-download div:nth-child(2) > a {
+  height: 65px;
+  line-height: 18px;
+  padding-top: 35px;
+}
+main .documnets .documnets-download div:last-child > a {
+  height: 65px;
+  line-height: 18px;
+  padding-top: 35px;
+}
+main .documnets .documnets-download div:last-child > a br {
+  display: block;
 }
 main .aboutCompany {
   margin-top: 60px;
 }
 main .aboutCompany h1 {
-  width: 198px;
+  width: 208px;
   height: 64px;
   margin: 33.5px auto;
   font-size: 30px;
@@ -626,6 +642,8 @@ main .aboutCompany > div:nth-child(2) .aboutCompany-numbers > div:last-child p {
   margin-top: 20px;
 }
 main .aboutCompany > div:nth-child(2) .aboutCompany-numbers > div:after {
+  top: 0;
+  left: 105px;
   border: 25px solid transparent;
   border-top: 25px solid #ffd21f;
 }
@@ -682,7 +700,7 @@ footer {
   padding-bottom: 32px;
 }
 footer h1 {
-  width: 256px;
+  width: 266px;
   height: 160px;
   margin: 34px auto 41px auto;
   font-size: 30px;
@@ -700,7 +718,7 @@ footer address .publicTransport {
   margin: 0 auto;
 }
 footer address .publicTransport h2 {
-  width: 140px;
+  width: 150px;
   height: 26px;
   font-size: 24px;
   line-height: 26px;
@@ -748,7 +766,7 @@ footer address .autoMap {
   margin: 0 auto;
 }
 footer address .autoMap h2 {
-  width: 175px;
+  width: 185px;
   height: 26px;
   font-size: 24px;
   line-height: 26px;

@@ -5,7 +5,7 @@
 }
 .modal,
 .modalImg{
-	display: flex;
+	display: none;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
@@ -16,7 +16,7 @@
 	left: 0;
 	background: rgba(0, 0, 0, 0.5);
 	z-index: 1050;
-	opacity: 0;
+	opacity: 1;
 	pointer-events: none;
 	&>.content{
 		display: flex;
@@ -117,7 +117,7 @@
 	}
 }
 .active{
-	opacity: 1;
+	display: flex;
 	pointer-events: auto;
 	overflow: none;
 }
@@ -266,6 +266,7 @@ header{
 				color: #222222;
 				font-family: 'Roboto', sans-serif;
 				font-weight: 400;
+				text-align: center;
 			}
 			label{
 				display: block;
@@ -335,6 +336,7 @@ main{
 			color: #6a462b;
 			font-family: 'Roboto', sans-serif;
 			font-weight: 700;
+			text-align: center;
 		}
 		.infrastructure-images{
 			display: flex;
@@ -427,6 +429,7 @@ main{
 			color: #6a462b;
 			font-family: 'Roboto', sans-serif;
 			font-weight: 700;
+			text-align: center;
 			br{
 				display: none;
 			}
@@ -472,10 +475,7 @@ main{
 				height: 100%;
 				background: url('../img/plan-img.jpg') no-repeat;
 				button{
-					display: flex;
-					flex-direction: column;
-					justify-content: center;
-					align-items: center;
+					display: block;
 					position: relative;
 					border: none;
 					background: linear-gradient(to bottom, #ffd21f 0%, #e4751c 100%);
@@ -521,10 +521,7 @@ main{
 			text-align: center;
 		}
 		button{
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
+			display: block;
 			position: relative;
 			border: none;
 			background: linear-gradient(to bottom, #a2d417 0%, #4c9918 100%);
@@ -532,6 +529,9 @@ main{
 			font-family: 'Roboto', sans-serif;
 			font-weight: 700;
 			outline: none;
+			br{
+				display: none;
+			}
 		}
 		button:hover{
 			cursor: pointer;
@@ -548,6 +548,7 @@ main{
 			color: #6a462b;
 			font-family: 'Roboto', sans-serif;
 			font-weight: 700;
+			text-align: center;
 		}
 		.photoGallery-photos{
 			display: flex;
@@ -556,10 +557,7 @@ main{
 			position: relative;
 			margin: 0 auto;
 			button{
-				display: flex;
-				flex-direction: column;
-				justify-content: center;
-				align-items: center;
+				display: block;
 				position: absolute;
 				border: none;
 				border-radius: 50%;
@@ -569,6 +567,7 @@ main{
 				&>img{
 					display: block;
 					position: relative;
+					margin: auto;
 				}
 			}
 			button:hover{
@@ -647,10 +646,7 @@ main{
 				}
 			}
 			button{
-				display: flex;
-				flex-direction: column;
-				justify-content: center;
-				align-items: center;
+				display: block;
 				position: relative;
 				border: none;
 				background: linear-gradient(to bottom, #a2d417 0%, #4c9918 100%);
@@ -699,6 +695,7 @@ main{
 					font-family: 'Roboto', sans-serif;
 					font-weight: 700;
 					text-align: center;
+					vertical-align: middle;
 				}
 			}
 			div:hover{
@@ -718,6 +715,7 @@ main{
 			color: #ffd21f;
 			font-family: 'Roboto', sans-serif;
 			font-weight: 700;
+			text-align: center;
 		}
 		&>div:nth-child(2){
 			display: flex;
@@ -876,6 +874,7 @@ footer{
 				font-family: 'Roboto', sans-serif;
 				font-weight: 700;
 				font-style: normal;
+				text-align: center;
 			}
 			&>div{
 				display: flex;
@@ -930,6 +929,7 @@ footer{
 				font-family: 'Roboto', sans-serif;
 				font-weight: 700;
 				font-style: normal;
+				text-align: center;
 			}
 			#map{
 				display: block;

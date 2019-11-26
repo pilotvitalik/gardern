@@ -56,7 +56,7 @@ for(let i = 0; i < btn.length; i++){
 closeBtn.onclick = () => {
 	modalWindow.classList.toggle('active');
 	body.style.pointerEvents = 'auto';
-	body.style.overflow = 'auto';
+	body.style.overflowY = 'auto';
 }
 
 showImgPlane.onclick = () => {
@@ -68,6 +68,6 @@ showImgPlane.onclick = () => {
 closeImgPlane.onclick = () => {
 	modalImg.classList.toggle('active');
 	body.style.pointerEvents = 'auto';
-	body.style.overflow = 'auto';
+	body.style.overflowY = 'auto';
 }
 
