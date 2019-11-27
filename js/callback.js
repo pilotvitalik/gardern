@@ -6,8 +6,6 @@ let closeImgPlane = document.querySelector('#closeImgPlane');
 let modalImg = document.querySelector('.modalImg');
 let showImgPlane = document.querySelector('#showImgPlane');
 
-console.log(btn);
-
 outScrollBar();
 
 $( window ).resize(function() {
@@ -17,7 +15,6 @@ $( window ).resize(function() {
 function outScrollBar() {
 	let outScroll = window.innerWidth;
 	body.style.width = outScroll + 'px';
-	body.style.overflowX = 'hidden';
 }
 
 for(let i = 0; i < btn.length; i++){
