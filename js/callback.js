@@ -6,6 +6,7 @@ let closeImgPlane = document.querySelector('#closeImgPlane');
 let modalImg = document.querySelector('.modalImg');
 let showImgPlane = document.querySelector('#showImgPlane');
 
+console.log(btn);
 
 outScrollBar();
 

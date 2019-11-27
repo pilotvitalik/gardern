@@ -6,7 +6,7 @@
 		&>form{
 			width: 350px;
 			border-radius: 5px;
-			legend{
+			&>h2{
 				width: 350px;
 				height: 50px;
 				font-size: 20px;
@@ -146,7 +146,7 @@ header{
 		form{
 			width: 330px;
 			border-radius: 5px;
-			legend{
+			&>h2{
 				width: 248px;
 				height: 66px;
 				font-size: 20px;
@@ -191,7 +191,7 @@ main{
 	.infrastructure{
 		margin-top: 51px;
 		padding-bottom: 53px;
-		h1{
+		h2{
 			width: 291px;
 			height: 36px;
 			font-size: 36px;
@@ -281,7 +281,7 @@ main{
 	}
 	.review{
 		padding-top: 53px;
-		h1{
+		h2{
 			width: 410px;
 			height: 39px;
 			font-size: 36px;
@@ -320,6 +320,16 @@ main{
 					line-height: 20px;
 				}
 			}
+			div:last-child{
+				a{
+					width: 370px;
+					height: 60px;
+					padding: auto 0;
+					box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.2);
+					font-size: 18px;
+					line-height: 60px;
+				}
+			}
 		}
 		span{
 			width: 814px;
@@ -327,7 +337,7 @@ main{
 			font-size: 24px;
 			line-height: 35px;
 		}
-		button{
+		&>button{
 			width: 370px;
 			height: 60px;
 			margin: 41px auto 50px auto;
@@ -338,7 +348,7 @@ main{
 		}
 	}
 	.photoGallery{
-		&>h1{
+		&>h2{
 			width: 366px;
 			height: 38px;
 			margin: 54px auto 53px auto;
@@ -378,7 +388,7 @@ main{
 			width: 1110/100*943*100/1161px;
 			height: 429px;
 			margin: 104px auto;
-			h1{
+			h2{
 				width: 675px;
 				height: 38px;
 				font-size: 36px;
@@ -446,7 +456,7 @@ main{
 	}
 	.documnets{
 		height: 285px;
-		h1{
+		h2{
 			width: 199px;
 			height: 38px;
 			margin-bottom: 53px;
@@ -479,7 +489,7 @@ main{
 	}
 	.aboutCompany{
 		margin-top: 49+161px;
-		h1{
+		h2{
 			width: 457px;
 			height: 38px;
 			margin: 55px auto 53px auto;
@@ -547,16 +557,15 @@ main{
 					font-size: 16px;
 					line-height: 21px;
 				}
-				button{
+				&>a{
 					width: 100%;
-					height: 60px;
+					height: 40px;
 					margin-top: 17px;
 					border-radius: 5px;
+					font-size: 18px;
+					line-height: 20px;
+					border-radius: 5px;
 					box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.2);
-					a{
-						font-size: 18px;
-						line-height: 20px;
-					}
 				}
 			}
 		}
@@ -590,7 +599,7 @@ footer{
 		.publicTransport{
 			width: 293+15+30px;
 			height: 36*3+116px;
-			h2{
+			&>p{
 				width: 184px;
 				height: 31px;
 				left: 106px;
@@ -635,7 +644,7 @@ footer{
 		.autoMap{
 			width: 579px;
 			height: 345px;
-			h2{
+			&>p{
 				width: 228px;
 				height: 32px;
 				font-size: 30px;

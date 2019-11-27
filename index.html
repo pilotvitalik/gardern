@@ -7,12 +7,12 @@
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
   <link rel="icon" href="img/favicon.ico" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-  <link href='css/style.min.css' rel='stylesheet' type='text/css' />
-  <link href='css/1200.min.css' rel='stylesheet' type='text/css' media="(min-width: 1200px)"/>
-  <link href='css/1000.min.css' rel='stylesheet' type='text/css' media="(min-width: 1000px) and (max-width: 1199px)"/>
-  <link href='css/768.min.css' rel='stylesheet' type='text/css' media="(min-width: 768px) and (max-width: 999px)"/>
-  <link href='css/320.min.css' rel='stylesheet' type='text/css' media="(min-width: 320px) and (max-width: 767px)"/>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link href='css/style_1.css' rel='stylesheet' type='text/css' />
+  <link href='css/1200_1.css' rel='stylesheet' type='text/css' media="(min-width: 1200px)"/>
+  <link href='css/1000_1.css' rel='stylesheet' type='text/css' media="(min-width: 1000px) and (max-width: 1199px)"/>
+  <link href='css/768_1.css' rel='stylesheet' type='text/css' media="(min-width: 768px) and (max-width: 999px)"/>
+  <link href='css/320_1.css' rel='stylesheet' type='text/css' media="(min-width: 320px) and (max-width: 767px)"/>
 </head>
 <body>
 	<div class='modalImg'>
@@ -25,9 +25,9 @@
 		<div class='content'>
 			<img src='img/closeBtn.png' alt='close' id='closeBtn'>
 			<form id='modalForm'>
-				<legend>
+				<h2>
 					Оставьте Ваши контактные данные и наш сотрудник свяжется с Вами
-			    </legend>
+			    </h2>
 			  <label>
 			  		<input id='modalName' type='text' name='name' placeholder='Ваше имя'>
 			  </label>
@@ -43,7 +43,7 @@
 	<header>
 		<img src='img/header-img.jpg' alt='фото поселка'>
 		<div>
-	  		<img src='img/logo.png'>
+	  		<img src='img/logo.png' alt='логотип'>
 	  		<span>
 	  		 Хотите иметь свой участок в Подмосковье?
 	  		</span>
@@ -82,8 +82,8 @@
 	    		</div>
 	    	</div>
 	    	<form id='headerForm'>
-	    	  <legend><b>Оставьте заявку</b> сейчас <b>и получите скидку 30%</b> на участок и коммуникации
-	    	  </legend>
+	    	  <h2><b>Оставьте заявку</b> сейчас <b>и получите скидку 30%</b> на участок и коммуникации
+	    	  </h2>
 	    	  <label>
 	    	  	<input id='headerName' type='text' name='name' placeholder='Ваше имя'>
 	    	  </label>
@@ -98,37 +98,37 @@
   	</header>
 	<main>
 	    <article class='infrastructure'>
-	    	<h1>
+	    	<h2>
 	    		Инфраструктура
-	    	</h1>
+	    	</h2>
 	    	<div class='infrastructure-images'>
 	    		<div>
 	    			<div>
-	    				<img src='img/01_electricity.svg'>
+	    				<img src='img/01_electricity.svg' alt='электричество'>
 	    			</div>
 	    			<span>Электричество 15кВт «под ключ»</span>
 	    		</div>
 	    		<div>
 	    			<div>
-	    				<img src='img/02_border.svg'>
+	    				<img src='img/02_border.svg' alt='КПП'>
 	    			</div>
 	    			<span>КПП с автоматическим шлагбаумом</span>
 	    		</div>
 	    		<div>
 	    			<div>
-	    				<img src='img/03_roads.svg'>
+	    				<img src='img/03_roads.svg' alt='дорога'>
 	    			</div>
 	    			<span>Дороги из песчано-гравийной смеси</span>
 	    		</div>
 	    		<div>
 	    			<div>
-	    				<img src='img/04_parking.svg'>
+	    				<img src='img/04_parking.svg' alt='парковка'>
 	    			</div>
 	    			<span>Гостевая парковка</span>
 	    		</div>
 	    		<div>
 	    			<div>
-	    				<img src='img/05_bin.svg'>
+	    				<img src='img/05_bin.svg' alt='мусор'>
 	    			</div>
 	    			<span>Площадка под ТБО</span>
 	    		</div>
@@ -172,7 +172,7 @@
 	   		</div>
 	    </article>
 	    <article class='review'>
-	    	<h1>Обзор<br> п. Владимировка</h1>
+	    	<h2>Обзор<br> п. Владимировка</h2>
 	    	<div class='review-description'>
 	    		<div>
 	    			<img src='img/about-place-img-1.png' alt='дом'>
@@ -194,9 +194,7 @@
 	    			</button>
 	    		</div>
 	    		<div>
-	    			<button>
-	    				<a href='http://svoiadacha.ru/vladimirovka/#tabs-1' target='_blank'>Ознакомиться с ценами<br> на участки</a>
-	    			</button>
+	    			<a href='http://svoiadacha.ru/vladimirovka/#tabs-1' target='_blank'>Ознакомиться с ценами<br> на участки</a>
 	    		</div>
 	    	</div>
 	    	<span>
@@ -207,9 +205,9 @@
 	    	</button>
 	    </article>
 	    <article class='photoGallery'>
-	    	<h1>
+	    	<h2>
 	    		Фотографии посёлка
-	    	</h1>
+	    	</h2>
 	    	<div class='photoGallery-photos'>
 	    		<button id='leftBtn'>
 	    			<img src='img/left.svg' alt='влево'>
@@ -222,9 +220,9 @@
 	    		</button>
 	    	</div>
 	    	<section class='photoGallery-package'>
-	    		<h1>
+	    		<h2>
 	    			Предлагаем 2 пакета благоустройства:
-	    		</h1>
+	    		</h2>
 	    		<div>
 	    			<div>
 	    				<div>
@@ -261,9 +259,9 @@
 	    	</section>
 	    </article>
 	    <aside class='documnets'>
-	    	<h1>
+	    	<h2>
 	    	Документы
-	    	</h1>
+	    	</h2>
 	    	<div class='documnets-download'>
 	    		<div>
 	    			<img src='img/pdf.png' alt='pdf'>
@@ -280,9 +278,9 @@
 	    	</div>
 	    </aside>
 	    <section class='aboutCompany'>
-	    	<h1>
+	    	<h2>
 	    	О компании «СВОЯ ДАЧА»
-	    	</h1>
+	    	</h2>
 	    	<div>
 	    		<div class='aboutCompany-numbers'>
 	    			<div>
@@ -322,9 +320,7 @@
 	    			<p>
 	    				Продажа земли в привлекательном месте на опушке леса или у водоема в любом из посёлков от компании «СВОЯ ДАЧА» — выгодное предложение для капиталовложения.
 	    			</p>
-	    			<button >
-	    				<a href='#headerForm'>Получить скидку 30%<br> от компании "Своя Дача"</a>
-	    			</button>
+	    			<a href='#headerForm'>Получить скидку 30%<br> от компании "Своя Дача"</a>
 	    		</div>
 	    	</div>
 	    	<div>
@@ -340,9 +336,9 @@
 	  	</h1>
 	  	<address>
 	  		<div class='publicTransport'>
-	  			<h2>
+	  			<p>
 	  				На автобусе
-	  			</h2>
+	  			</p>
 	  			<div>
 	  				<div>
 	  				</div>
@@ -366,9 +362,9 @@
 	  			</div>
 	  		</div>
 	  		<div class='autoMap'>
-	  			<h2>
+	  			<p>
 	  				На автомобиле
-	  			</h2>
+	  			</p>
 	  			<div id='map'>
 	  			</div>
 	  		</div>
@@ -392,23 +388,22 @@
   	<script src='js/callback.min.js'></script>
   	<script src='js/rewind.min.js'></script>
   	<script src='js/slider.min.js'></script>
+  	<script src='js/defaultFonts.min.js'></script>
   	<script>
-  	      function initMap() {
-  	        var myLatLng = {lat: 55.748249, lng: 37.678497};
-
-  	        var map = new google.maps.Map(document.getElementById('map'), {
-  	          zoom: 15,
-  	          center: myLatLng
-  	        });
-
-  	        var marker = new google.maps.Marker({
-  	          position: myLatLng,
-  	          map: map,
-  	        });
-  	      }
-  	    </script>
-  	    <script async defer
+  		function initMap() {
+  		            var myLatLng = {lat: 55.748249, lng: 37.678497};
+  		            var map = new google.maps.Map(document.getElementById('map'), {
+  		              zoom: 15,
+  		              center: myLatLng
+  		            });
+  		            var marker = new google.maps.Marker({
+  		              position: myLatLng,
+  		              map: map,
+  		            });
+  		          }
+  	</script>
+  	<script async defer
   	    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBK3ahQG5SqreA54xHCkEPKcJLTgzLHQos&callback=initMap">
-  	    </script>
+  	</script>
 </body>
 </html>

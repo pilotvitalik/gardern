@@ -42,7 +42,7 @@
 			position: relative;
 			background: #fff;
 			bottom: 10px;
-			legend{
+			&>h2{
 				display: inline-block;
 				margin: 0 auto;
 				color: #222222;
@@ -260,7 +260,7 @@ header{
 			position: relative;
 			height: 100%;
 			background: #fff;
-			legend{
+			&>h2{
 				display: inline-block;
 				margin: 0 auto;
 				color: #222222;
@@ -330,7 +330,7 @@ main{
 		position: relative;
 		width: inherit;
 		height: inherit;
-		h1{
+		h2{
 			display: inline-block;
 			margin: 0 auto;
 			color: #6a462b;
@@ -423,7 +423,7 @@ main{
 		width: 100%;
 		height: auto;
 		background: #faeed2;
-		h1{
+		h2{
 			display: inline-block;
 			margin: 0 auto;
 			color: #6a462b;
@@ -493,22 +493,24 @@ main{
 			}
 			div:last-child{
 				background: url('../img/price-img.jpg') no-repeat;
-				button{
-					display: block;
-					justify-content: unset;
-					align-items: unset;
-					a{
-						display: inline-flex;
-						flex-direction: column;
-						justify-content: center;
-						align-items: center;
-						width: 100%;
-						height: 100%;
-						color: #fefefe;
-						font-family: 'Roboto', sans-serif;
-						font-weight: 700;
-						border-radius: 5px;
+				a{
+					display: inline-block;
+					position: relative;
+					margin: auto;
+					color: #fefefe;
+					font-family: 'Roboto', sans-serif;
+					font-weight: 700;
+					text-align: center;
+					border-radius: 5px;
+					border: none;
+					background: linear-gradient(to bottom, #ffd21f 0%, #e4751c 100%);
+					outline: none;
+					br{
+						display: none;
 					}
+				}
+				a:hover{
+					cursor: pointer;
 				}
 			}
 		}
@@ -543,7 +545,7 @@ main{
 		position: relative;
 		width: 100%;
 		height: auto;
-		&>h1{
+		&>h2{
 			display: inline-block;
 			color: #6a462b;
 			font-family: 'Roboto', sans-serif;
@@ -591,7 +593,7 @@ main{
 			display: flex;
 			flex-direction: column;
 			position: relative;
-			h1{
+			h2{
 				display: inline-block;
 				margin: 0 auto;
 				color: #6a462b;
@@ -665,7 +667,7 @@ main{
 		flex-direction: column;
 		position: relative;
 		width: 100%;
-		h1{
+		h2{
 			display: inline-block;
 			margin: 0 auto;
 			color: #6a462b;
@@ -710,7 +712,7 @@ main{
 		width: 100%;
 		height: auto;
 		background-color: #6a462b;
-		h1{
+		h2{
 			display: inline-block;
 			color: #ffd21f;
 			font-family: 'Roboto', sans-serif;
@@ -782,29 +784,23 @@ main{
 					font-family: 'Roboto', sans-serif;
 					font-weight: 400;
 				}
-				&>button{
-					display: block;
+				&>a{
+					display: inline-block;
 					position: relative;
+					padding-top: 20px;
 					margin: 0 auto;
+					color: #fefefe;
+					font-family: 'Roboto', sans-serif;
+					font-weight: 700;
+					text-align: center;
 					border: none;
 					background: linear-gradient(to bottom, #a2d417 0%, #4c9918 100%);
 					outline: none;
-					a{
-						display: inline-flex;
-						flex-direction: column;
-						justify-content: center;
-						align-items: center;
-						width: 100%;
-						height: 100%;
-						color: #fefefe;
-						font-family: 'Roboto', sans-serif;
-						font-weight: 700;
-						br{
-							display: none;
-						}
+					br{
+						display: none;
 					}
 				}
-				button:hover{
+				&>a:hover{
 					cursor: pointer;
 				}
 			}
@@ -867,7 +863,7 @@ footer{
 			flex-direction: column;
 			justify-content: space-between;
 			position: relative;
-			h2{
+			&>p{
 				display: inline-block;
 				position: relative;
 				color: #6a462b;
@@ -922,7 +918,7 @@ footer{
 			flex-direction: column;
 			justify-content: space-between;
 			position: relative;
-			h2{
+			&>p{
 				display: inline-block;
 				margin: 0 auto;
 				color: #6a462b;
