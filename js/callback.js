@@ -6,16 +6,7 @@ let closeImgPlane = document.querySelector('#closeImgPlane');
 let modalImg = document.querySelector('.modalImg');
 let showImgPlane = document.querySelector('#showImgPlane');
 
-outScrollBar();
 
-$( window ).resize(function() {
-    outScrollBar();
-});
-
-function outScrollBar() {
-	let outScroll = window.innerWidth;
-	body.style.width = outScroll + 'px';
-}
 
 for(let i = 0; i < btn.length; i++){
 		btn[i].onclick = () => {
