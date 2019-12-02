@@ -3,27 +3,27 @@
 <head>
   <title>Своя дача</title>
   <meta charset='utf-8'>
-  <meta name='viewport' content='width=device-width. initial-scale=1'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
   <link rel="icon" href="img/favicon.ico" type="image/x-icon">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-  <link href='css/style_1.css' rel='stylesheet' type='text/css' />
-  <link href='css/1200_1.css' rel='stylesheet' type='text/css' media="(min-width: 1200px)"/>
-  <link href='css/1000_1.css' rel='stylesheet' type='text/css' media="(min-width: 1000px) and (max-width: 1199px)"/>
-  <link href='css/768_1.css' rel='stylesheet' type='text/css' media="(min-width: 768px) and (max-width: 999px)"/>
-  <link href='css/320_1.css' rel='stylesheet' type='text/css' media="(min-width: 320px) and (max-width: 767px)"/>
+  <link href='css/style.css' rel='stylesheet' type='text/css' />
+  <link href='css/1200.css' rel='stylesheet' type='text/css' media="(min-width: 1200px)"/>
+  <link href='css/1000.css' rel='stylesheet' type='text/css' media="(min-width: 1000px) and (max-width: 1199px)"/>
+  <link href='css/768.css' rel='stylesheet' type='text/css' media="(min-width: 768px) and (max-width: 999px)"/>
+  <link href='css/320.css' rel='stylesheet' type='text/css' media="(min-width: 320px) and (max-width: 767px)"/>
 </head>
 <body>
 	<div class='modalImg'>
 		<div class='content'>
 			<img src='img/plan_for_sale-img.jpg' alt='генеральный план'>
-			<img src='img/closeBtnImg.png' alt='close' id='closeImgPlane'>
+			<img src='img/closeBtnImg.png' alt='close' class='closeImgPlane'>
 		</div>
 	</div>
 	<div class='modal'>
 		<div class='content'>
-			<img src='img/closeBtn.png' alt='close' id='closeBtn'>
+			<img src='img/closeBtn.png' alt='close' class='closeBtn'>
 			<form id='modalForm'>
 				<h2>
 					Оставьте Ваши контактные данные и наш сотрудник свяжется с Вами
@@ -189,7 +189,7 @@
 	    	</div>
 	    	<div class='review-specific'>
 	    		<div>
-	    			<button id='showImgPlane'>
+	    			<button class='showImgPlane'>
 	    				Посмотреть генеральный<br> план 
 	    			</button>
 	    		</div>
@@ -384,11 +384,11 @@
 	  			<tr><td>Физ.  адрес: 105120, г. Москва, Гжельский пер. 13а, стр.3, каб.6</td></tr>
 	  		</table>
   	</footer>
-  	<script src='js/request_1.min.js'></script>
-  	<script src='js/callback_1.min.js'></script>
-  	<script src='js/rewind_1.min.js'></script>
-  	<script src='js/slider_1.min.js'></script>
-  	<script src='js/defaultFonts_1.min.js'></script>
+  	<script src='js/request.min.js'></script>
+  	<script src='js/callback.min.js'></script>
+  	<script src='js/rewind.min.js'></script>
+  	<script src='js/slider.min.js'></script>
+  	<script src='js/defaultFonts.min.js'></script>
   	<script>
   		function initMap() {
   		            var myLatLng = {lat: 55.748249, lng: 37.678497};
