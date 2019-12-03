@@ -1,0 +1,39 @@
+{
+  "name": "svoya_dacha",
+  "version": "1.0.0",
+  "description": "landing page Svoya Dacha",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack-dev-server --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pilotvitalik/gardern.git"
+  },
+  "keywords": [
+    "webpack",
+    "JS",
+    "HTML",
+    "CSS"
+  ],
+  "author": "Vitalij Kozhushko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pilotvitalik/gardern/issues"
+  },
+  "homepage": "https://github.com/pilotvitalik/gardern/tree/webpack",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "path": "^0.12.7",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
