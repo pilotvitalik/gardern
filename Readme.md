@@ -23,6 +23,8 @@ npm run dev
 npm run build
 ```
 ## Project Structure:
+* `description.txt` - description about works perfomed
+
 * `src/index.html` - main app HTML
 * `src/assets/less` - put custom app LESS styles here.
 * `src/assets/img` - put images here.
