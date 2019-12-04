@@ -1,4 +1,4 @@
-import stopWheel from './stopWheel'
+import {stopWheel, stopTouch} from './stopScroll';
 
 let btn = document.querySelectorAll('.callback');
 let modalWindow = document.querySelector('.modal');
@@ -14,6 +14,7 @@ for(let i = 0; i < btn.length; i++){
 		stopWheel(modalWindow, function(e) {
 		  e.preventDefault();
 		});
+		body.addEventListener('touchmove', stopTouch)
 	}
 }
 
@@ -44,6 +45,7 @@ $('#modalForm').submit(function(event) {
 	
 closeBtn.onclick = () => {
 	modalWindow.classList.toggle('active');
+	body.removeEventListener('touchmove', stopTouch)
 }
 
 showImgPlane.onclick = () => {
@@ -51,8 +53,11 @@ showImgPlane.onclick = () => {
 	stopWheel(modalImg, function(e) {
 	  e.preventDefault();
 	});
+	body.addEventListener('touchmove', stopTouch)
 }
 
 closeImgPlane.onclick = () => {
 	modalImg.classList.toggle('active');
+	body.removeEventListener('touchmove', stopTouch)
 }
+
