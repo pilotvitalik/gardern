@@ -55,7 +55,7 @@
 	}
 }
 header{
-	height: 1210px;
+	height: auto;
 	&>img{
 		transform: scale(4.5, 1);
 	}
@@ -113,7 +113,7 @@ header{
 		flex-wrap: wrap;
 		justify-content: unset;
 		width: 300px;
-		height: 670px;
+		height: 700px;
 		margin-top: 103px;
 		.advantage{
 			width: 300px;
@@ -212,7 +212,7 @@ main{
 			line-height: 31px;
 		}
 		.infrastructure-images{
-			flex-wrap: wrap;
+			flex-direction: column;
 			width: 256px;
 			height: 660px;
 			margin-top: 53px;
@@ -238,6 +238,7 @@ main{
 				}
 			}
 			&>div:first-child{
+				width: 100%;
 				&>div{
 					&>img{
 						width: 51px;
@@ -250,6 +251,7 @@ main{
 			}
 			&>div:nth-child(2),
 			&>div:nth-child(3){
+				width: 100%;
 				height: 124px;
 				&>span{
 					width: 230px;
@@ -260,6 +262,7 @@ main{
 			}
 			&>div:nth-child(3),
 			&>div:nth-child(4){
+				width: 100%;
 				&>div{
 					&>img{
 						width: 50px;
@@ -268,6 +271,7 @@ main{
 				}
 			}
 			&>div:last-child{
+				width: 100%;
 				&>div{
 					&>img{
 						width: 50px;
@@ -300,7 +304,7 @@ main{
 				}
 			}
 			section:first-child{
-				margin-top: 0;
+				margin-top: 19px;
 			}
 			button{
 				display: flex;
@@ -320,7 +324,7 @@ main{
 		padding-bottom: 30px;
 		height: auto;
 		h2{
-			width: 252px;
+			width: 260px;
 			height: 65px;
 			font-size: 30px;
 			line-height: 31px;
@@ -469,7 +473,7 @@ main{
 				flex-wrap: wrap;
 				height: 100%;
 				margin-top: 32px;
-				&>div{
+				div{
 					width: 295px;
 					height: 253px;
 					margin: 0 auto;
@@ -509,8 +513,12 @@ main{
 						}
 					}
 				}
-				&>div:last-child{
+				div:last-child{
+					width: 100%;
 					margin-top: 33px;
+					table{
+						width: 203*100/295%;
+					}
 				}
 			}
 			button{
@@ -549,12 +557,13 @@ main{
 				&>img{
 					width: 54px;
 					height: 70px;
+					margin-top: 0;
 					margin-left: 15px;
 				}
 				&>a{
 					width: 212px;
-					height: 100%;
-					top: 0;
+					height: 100px;
+					padding-top: 0;
 					padding-left: 84px;
 					font-size: 16px;
 					line-height: 100px;
@@ -563,14 +572,12 @@ main{
 			}
 			div:nth-child(2){
 				&>a{
-					height: 65px;
 					line-height: 18px;
 					padding-top: 35px;
 				}
 			}
 			div:last-child{
 				&>a{
-					height: 65px;
 					line-height: 18px;
 					padding-top: 35px;
 					br{
@@ -673,6 +680,7 @@ main{
 			}
 		}
 		&>div:last-child{
+			margin-top: 0;
 			height: 170px;
 			&>p{
 				display: inline-block;
@@ -712,12 +720,12 @@ footer{
 			height: 36*3+116px;
 			margin: 0 auto;
 			&>p{
-				width: 150px;
+				width: 100%;
 				height: 26px;
 				font-size: 24px;
 				line-height: 26px;
-				margin: 0 auto;
 				margin-bottom: 5px;
+				left: 0;
 			}
 			&>div{
 				height: 18px;

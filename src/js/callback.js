@@ -9,7 +9,6 @@ let showImgPlane = document.querySelector('.showImgPlane');
 for(let i = 0; i < btn.length; i++){
 		btn[i].onclick = () => {
 		modalWindow.classList.toggle('active');
-		body.style.pointerEvents = 'none';
 	}
 }
 
@@ -40,19 +39,12 @@ $('#modalForm').submit(function(event) {
 	
 closeBtn.onclick = () => {
 	modalWindow.classList.toggle('active');
-	body.style.pointerEvents = 'auto';
-	body.style.overflowY = 'auto';
 }
 
 showImgPlane.onclick = () => {
 	modalImg.classList.toggle('active');
-	body.style.pointerEvents = 'none';
-	body.style.overflow = 'hidden';
 }
 
 closeImgPlane.onclick = () => {
 	modalImg.classList.toggle('active');
-	body.style.pointerEvents = 'auto';
-	body.style.overflowY = 'auto';
 }
-
