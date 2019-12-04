@@ -1,3 +1,5 @@
+import stopWheel from './stopWheel'
+
 let btn = document.querySelectorAll('.callback');
 let modalWindow = document.querySelector('.modal');
 let body = document.querySelector('body');
@@ -9,6 +11,9 @@ let showImgPlane = document.querySelector('.showImgPlane');
 for(let i = 0; i < btn.length; i++){
 		btn[i].onclick = () => {
 		modalWindow.classList.toggle('active');
+		stopWheel(modalWindow, function(e) {
+		  e.preventDefault();
+		});
 	}
 }
 
@@ -43,6 +48,9 @@ closeBtn.onclick = () => {
 
 showImgPlane.onclick = () => {
 	modalImg.classList.toggle('active');
+	stopWheel(modalImg, function(e) {
+	  e.preventDefault();
+	});
 }
 
 closeImgPlane.onclick = () => {
