@@ -6,15 +6,15 @@
   <p>
     Webpack is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset.
   </p>
-  <p>Author: <a href="https://tocode.ru" target="_blank">To code</a> | <a href="https://www.youtube.com/playlist?list=PLkCrmfIT6LBQWN02hNj6r1daz7965GxsV" target="_blank">Youtube guide in Russian</a></p>
+  <p>Author: <a href="http://portfoliovitalij.ru/" target="_blank">To code</a></p>
 </div>
 
 ## Build Setup:
 ``` bash
 # Download repository:
-git clone https://github.com/vedees/webpack-template webpack-template
+git clone https://github.com/pilotvitalik/gardern.git garden-webpack
 # Go to the app:
-cd webpack-template
+cd garden-webpack
 # Install dependencies:
 npm install
 # Server with hot reload at http://localhost:8081/
@@ -24,14 +24,14 @@ npm run build
 ```
 ## Project Structure:
 * `src/index.html` - main app HTML
-* `src/scss` - put custom app SCSS styles here. Don't forget to import them in `main.js`
-* `src/css` - the same as above but CSS here. Don't forget to import them in `main.js`
-* `src/img` - put images here. Don't forget to use correct path: `assets/img/some.jpg`
+* `src/assets/less` - put custom app LESS styles here.
+* `src/assets/img` - put images here.
 * `src/js` - put custom app scripts here
+* `src/static` - put static files here
+* `src/static/docs` - put documents (.pdf, .doc, .xls) here
 * `src/index.js` - main app file where you include/import all required libs and init app
-* `src/components` - folder with custom `.vue` components
-* `src/store` - app store for vue
-* `static/` - folder with extra static assets that will be copied into output folder
+* `src/mail.php` - main php file for feedback
+
 ## License
 [MIT](./LICENSE)
-Copyright (c) 2018-present, [Evgenii Vedegis](https://github.com/vedees)
+Copyright (c) 2019-present, [Vitalij Kozhushko](https://github.com/pilotvitalik)
